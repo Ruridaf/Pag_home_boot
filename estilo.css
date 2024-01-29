@@ -1,0 +1,555 @@
+body{
+    max-width: 1600px;
+    min-width: 360px;
+    margin: auto;
+}
+
+header{
+    margin-top: 50px;
+}
+
+.navbar-brand img{
+    height: 49px;
+}
+
+.nav-link{
+    color: #333333 !important;
+    font-size: 14px;
+    font-family: 'Poppins-medium';
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    padding-right: 6px !important;
+}
+
+.nav-item > a:hover{
+    text-decoration-line: underline;
+    text-decoration-thickness: 6px;
+    text-underline-offset: 19px;
+}
+
+.dropdown-menu{
+    background-color: #333333ea;
+    width: 240px;
+    margin-left: 7px;
+    margin-top: 7px !important;
+}
+
+.dropdown-item{
+    color: #FFFFFF;
+    white-space: pre-line !important;
+    font-family: 'Poppins-regular';
+    font-size: 14px;
+    padding: 15px 25px;
+}
+
+.dropdown-item:hover{
+    background-color: transparent;
+    color: #FFFFFF;
+    font-family: 'Poppins-bold';
+    font-size: 17px;
+}
+
+.dropdown-divider{
+    /* Usar as 3 variantes para compatibilidade com browser */
+    background-color: rgb(117, 117, 117);
+    color: rgb(117, 117, 117);
+    border-color: rgb(117, 117, 117);
+    border-width: 2px;
+    margin: 0px;
+}
+
+/* nav menor que lg quando aparece o botao */
+
+.navbar-toggler, .navbar-toggler:focus{
+    border: none;
+    box-shadow: none;
+}
+
+.sombra{
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, .4);
+}
+
+/* carousel */
+
+.carousel img{
+    height: 39vw;
+    min-height: 259px;
+    object-fit: cover;
+}
+
+.carousel-indicators button{
+    width: 71px !important;
+    height: 13px !important;
+    opacity: 1 !important;
+    margin-bottom: 15px;
+}
+
+.carousel-indicators button.active{
+    background-color: #F9963B !important;
+}
+
+/* body */
+
+.separador{
+    width: 78px;
+    height: 3px;
+    background-color: #F9963B;
+}
+
+.titulo{
+    font-family: 'Poppins-regular';
+    font-size: 38px;
+    color: #333333;
+    line-height: 58px;
+}
+
+.texto{
+    font-family: 'Poppins-light';
+    font-size: 18px;
+    color: #333333;
+}
+
+.vermais_1{
+    width: 196px;
+    height: 48px;
+    font-family: 'Poppins-regular';
+    color: #333333;
+    text-transform: uppercase;
+    border: 2px solid black;
+}
+
+/* cards */
+
+.card{
+    width: 350px;
+    height: 470px;
+    border-radius: 0px;
+    border: none;
+}
+
+.card img{
+    /* width: 100%; */
+    height: 255px;
+    object-fit: cover;
+}
+
+.card-title{
+    height: 60px;
+    font-family: 'Poppins-regular';
+    font-size: 25px;
+    color: #333333;
+}
+
+.card-text{
+    font-family: 'Poppins-light';
+    font-size: 18px;
+    color: #333333;
+}
+
+.vermais_destaque{
+    width: 128px;
+    height: 35px;
+    background-color: white;
+    font-family: 'Poppins-regular';
+    font-size: 12px;
+    color: #333333;
+    text-transform: uppercase;
+    /* position: relative; troquei pelo Boot " + responsivo" */
+    /* top: 15px; troquei pelo Boot " + responsivo" */
+}
+
+.card-body{
+    border: 1px solid #333333;
+    border-top: none;
+    /* height: 215px; */
+    padding: 16px 25px;
+}
+
+/* footer */
+
+footer{
+    margin-top: 130px;
+}
+
+.contactos{
+    background-image: url("imagens/FooterContactos.png");
+    background-size: cover;
+    background-position: center;
+    height: 565px;
+    
+}
+
+.contactos-opaco{
+    background-color: rgba(0, 0, 0, .6);
+    padding-top: 130px;
+}
+
+.separador-contactos{
+    width: 78px;
+    height: 3px;
+    background-color: #FFFFFF;
+}
+
+.titulo-contactos{
+    font-family: 'Poppins-regular';
+    font-size: 43px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.informacoes img{
+    width: 75px;
+    height: 75px;
+    margin-top: 8px;
+}
+
+.informacoes .texto{
+    font-family: 'Poppins-regular';
+    font-size: 23px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.icone > .tel{
+    font-size: 25px;
+}
+
+.informacoes .icone{
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.mapa{
+    background-image: url("imagens/mapa.png");
+    background-size: cover;
+    background-position: center;
+    height: 513px;
+}
+
+.nav-fundo{
+    background-image: url("imagens/FooterFacebook.png");
+    background-size: cover;
+    background-position: center;
+    height: 476px;
+}
+
+.nav-fundo-opaco{
+    background-color: rgba(0, 0, 0, .6);
+    padding-top: 85px;
+}
+
+.nav-fundo-opaco img{
+    width: 100px;
+    height: 100px;
+}
+
+.nav-fundo-opaco .texto{
+    font-family: 'Poppins-regular';
+    font-size: 29px;
+    color: #FFFFFF;
+}
+
+.separador-nav-fundo{
+    height: 2px;
+    background-color: #FFFFFF;
+    margin-top: 65px;
+}
+
+.nav-fundo nav a{
+    font-family: 'Poppins-light';
+    font-size: 15px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 13px;
+}
+
+.nav-fundo nav a:hover, .nav-fundo nav a.active{
+    /* preparado para php ternario */
+    color: #FC8B3B;
+}
+
+.copyright{
+    font-family: 'Poppins-light';
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: -3px;
+}
+
+/* Bootstrap XL */
+
+@media all and (max-width: 1200px){
+
+    .nav-link{
+        font-size: 13px;
+        padding-right: 3px !important;
+    }
+
+    .dropdown-item{
+        font-size: 13px;
+    }
+
+    .dropdown-item:hover{
+        font-size: 16px;
+    }
+
+    .navbar-brand img{
+        height: 39px;
+    }
+
+    header{
+        margin-top: 35px;
+    }
+
+    .titulo-contactos{
+        font-size: 35px;
+    }
+
+    .informacoes .texto{
+        font-size: 20px;
+    }
+}
+
+/* Bootstrap LG */
+
+@media all and (max-width: 991px){
+
+    .navbar-nav{
+        background-color: #333333ea;
+        position: absolute;
+        width: 100%;
+    }
+
+    .nav-item > a:hover{
+        text-decoration-line: none;
+    }
+
+    header{
+        margin-top: 10px;
+    }
+
+    .nav-menor a{
+        color: #FFFFFF !important;
+        font-family: 'Poppins-regular';
+        font-size: 14px;
+        padding: 13px 36px !important;
+        margin: 0px;
+        border-bottom: 1px solid #FFFFFF;
+    }
+
+    .nav-menor .nav-link:hover, .nav-menor .nav-link.active{
+        font-size: 15px;
+        font-family: 'Poppins-bold';
+    }
+
+    #dropdown-menu-menor{
+        background-color: #FFFFFF;
+        width: auto;
+        margin: 0px;
+        padding: 0px 45px;
+        margin: 0px !important;
+        border: none;
+    }
+
+    #dropdown-menu-menor a{
+        color: #333333 !important;
+        text-transform: uppercase;
+        padding: 13px 0px !important;
+    }
+
+    #dropdown-menu-menor a:hover{
+        color: #F9963B !important;
+        font-size: 14px;
+        font-family: 'Poppins-bold';
+    }
+
+    .carousel-indicators button{
+        width: 59px !important;
+        height: 10px !important;
+        margin-bottom: 0px;
+    }
+
+    .carousel-indicators button:nth-child(even){
+        margin: 0px;
+    }
+
+    .titulo{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .texto{
+        font-size: 15px;
+    }
+
+    .vermais_1{
+        width: 155px;
+        height: 36px;
+        font-size: 10px;
+        border: 1px solid black;
+    }
+
+    .titulo-contactos{
+        font-size: 22px;
+    }
+
+    .separador-contactos{
+        width: 47px;
+    }
+    
+
+    .informacoes .texto{
+        font-size: 16px;
+        width: 250px;
+    }
+
+    .vermais_destaque{
+        width: 105px;
+        height: 29px;
+        font-size: 10px;
+    }
+
+    footer{
+        margin-top: 90px;
+    }
+
+    .contactos-opaco{
+        padding-top: 60px;
+    }
+
+    .informacoes img{
+        width: 52px;
+        height: 52px;
+    }
+
+    .informacoes .icone{
+        gap: 20px;
+        width: 340px;
+    }
+
+    .informacoes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mapa{
+        height: 323px;
+    }
+
+    .nav-fundo{
+        height: 310px;
+    }
+
+    .nav-fundo-opaco{
+        padding-top: 0px;
+    }
+
+    .separador-nav-fundo{
+        margin-top: 65px;
+        height: 1px;
+    }
+
+    .nav-fundo-opaco img{
+        width: 52px;
+        height: 52px;
+    }
+
+    .nav-fundo-opaco .texto{
+        font-size: 20px;
+    }
+
+    .copyright{
+        font-size: 11px;
+    }
+
+}
+
+/* Bootstrap MD */
+
+@media all and (max-width: 768px){
+
+    .carousel-indicators button{
+        width: 35px !important;
+        height: 7px !important;
+    }
+
+    .separador{
+        width: 47px;
+    }
+
+    .titulo{
+        font-size: 26px;
+        line-height: 35px;
+    }
+
+    .vermais_1{
+        width: 105px;
+        height: 29px;
+        font-size: 10px;
+        border: 1px solid black;
+    }
+
+    .card-title{
+        font-size: 20px;
+        /* margin-bottom: 0px; */
+    }
+
+    .card-text{
+        font-size: 15px;
+        /* margin-bottom: 0px; */
+    }
+
+    /* este codigo funciona */
+
+    /* .card{
+        width: 286px;
+        height: 374px !important;
+    }
+
+    .vermais_destaque{
+        width: 105px;
+        height: 29px;
+        font-size: 10px;
+        top: 374px !important;
+    } */
+
+}
+
+/* Bootstrap SM */
+
+@media all and (max-width: 576px){
+
+    .navbar-brand img{
+        height: 31px;
+        padding-left: 13px !important;
+    }
+
+    .navbar-brand{
+        padding-top: 2px;
+        padding-bottom: 18px !important;
+    }
+
+    .carousel-indicators{
+        margin-bottom: 13px;
+    }
+
+    .titulo{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .texto{
+        font-size: 13px;
+    }
+
+    .card img{
+        height: 255px;
+        /* object-fit: cover; */
+    }
+
+}
